@@ -7,3 +7,19 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Product.create!(
+  name: 'Terminator',
+  brand: 'Nike',
+  url: 'http://example.com/nike-terminator',
+  size: '12',
+  quantity: 15
+)
+
+Product.create!(
+  name: 'Pro Play 2',
+  brand: 'Adidas',
+  url: 'http://example.com/adidas-pro-play-2',
+  size: '10',
+  quantity: 5
+)
